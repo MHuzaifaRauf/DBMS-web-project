@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+
+.content {
+    max-width: 600px;
+    margin: 80px auto 20px; 
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 0;
+}
+
+.bill-list {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+.test-link {
+    color: #333!important;
+text-decoration: none;
+}
+.bill-list li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    transition: background-color 0.3s ease;
+}
+
+.bill-list li:hover {
+    background-color: #e7e7e7;
+}
+
+.total {
+    font-weight: bold;
+    font-size: 22px;
+    text-align: right;
+    margin-top: 20px;
+}
+
+form {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #001F3F;
+}
+
+.pay-button {
+    font-size: 18px;
+    width: 100%;
+    background-color: #001F3F;
+    color: white;
+    padding: 14px;
+    margin-top: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.cancel-button {
+    font-size: 18px;
+
+    width: 100%;
+    background-color: #555353;
+    color: white;
+    padding: 14px;
+    margin-top: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.pay-button i {
+    margin-right: 8px;
+}
+
+.pay-button:hover {
+    background-color: #093f75;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    input[type="text"] {
+        padding: 10px;
+    }
+
+    .pay-button {
+        padding: 12px;
+    }
+}

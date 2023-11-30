@@ -1,0 +1,412 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  
+}
+body{
+  background-color: #F5F5F5;
+}
+
+
+.section-4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+.image {
+  flex-basis: 30%; 
+  text-align: right;
+}
+
+
+.image img {
+  width: 100%; 
+  max-width: 100%; 
+  height: auto; 
+  max-height: 100%; 
+}
+
+.Home{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 100%;
+  position: relative;
+  top: 10vh;
+  left: 0;
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 100%;
+    position: static;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.error {
+  color: #bb1c41;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.button {
+  display: inline-block;
+  padding: 13px 18px;
+
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.explore-button {
+  font-size: 20px;
+}
+.go-back {
+  margin-top: 15px;
+}
+.alert-input {
+  width: 30% !important;
+}
+
+.go-back a {
+  color: rgba(0, 0, 0, 0.7);
+  margin-top: 15px;
+}
+.go-back:hover a {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.primary-button {
+  background-color: #6c757d;
+}
+
+.primary-button:hover {
+  background-color: #001F3F;
+}
+
+
+
+.secondary-button {
+  background-color: #6c757d;
+}
+
+.secondary-button:hover {
+  background-color: #454d55;
+}
+
+
+.light-theme {
+  color: #333;
+  background-color:#072E33;
+}
+
+#scrollToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 99;
+  font-size: 18px;
+  background-color: rgba(143, 132, 132, 0.9);
+  color: #001F3F;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+  opacity: 0.5;
+  transition: opacity 0.3s;
+}
+
+#scrollToTopBtn:hover {
+  opacity: 1;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.about-section {
+  color: #eeeeee;
+
+  padding: 20px;
+}
+.container input[type="text"],
+.container input[type="password"],
+.container input[type="number"],
+.container input[type="email"],.content input[type="text"],
+.content input[type="password"],
+.content input[type="number"],
+.content input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.content input[type="checkbox"] {
+  transform: scale(1.5); /* Adjust the scale factor to increase/decrease size */
+  margin-right: 5px; /* Add some spacing to separate the checkbox from the label */
+}
+/* IMAGE SLIDER */
+.image-section {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+
+#image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 1s ease;
+  position: relative;
+  z-index: 1;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+.image-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  z-index: 3;
+}
+
+.image-content p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .image-section {
+    height: auto;
+  }
+}
+
+
+.services-section {
+  text-align: center;
+  padding: 20px;
+}
+
+.services-grid {
+  display: grid;
+  /* Below is the css used when we want to choose how many divs gets shown in a div, acts row wise */
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+
+.service-box {
+  position: relative;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); 
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  text-align: center;
+  overflow: hidden; 
+  z-index: 1;
+  height: 100%; 
+  width: 100%;
+}
+
+.service-box i {
+  font-size: 48px;
+  margin-bottom: 10px;
+  color: #AE445A;
+}
+
+.service-box h3 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+
+}
+
+.service-box p {
+  text-align: left;
+  margin: 10px 0 0;
+  color: #5d4449;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+
+
+.service-box:hover {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+  transform: translateY(-4px);
+  z-index: 2;
+}
+
+.service-box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: -1;
+}
+
+.service-box:hover::before {
+  opacity: 1;
+}
+
+.service-box:hover h3,
+.service-box:hover p {
+  color: #fff;
+}
+
+.service-box a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+}
+
+/* SECTION SERVICES END */
+
+
+
+.section {
+  margin-bottom: 50px;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.section h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.section p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.section ul {
+  list-style-type: disc;
+  margin-bottom: 15px;
+  margin-left: 30px;
+}
+
+.section li {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.section li strong {
+  font-weight: bold;
+}
+
+/* SECTION SIMPLE ENDD */
+
+/* CSS for reviews section */
+
+.header {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 32px;
+}
+
+.reviews-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.review {
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  color: #333;
+}
+
+.review h3 {
+  font-size: 24px;
+  color: #AE445A;
+  margin-bottom: 10px;
+}
+
+.review p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Rating stars */
+.rating {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.star {
+  color: #ffdc60;
+}
+
+/* Add hover effect to stars */
+.star:hover {
+  color: #ffc107;
+  cursor: pointer;
+}
+
+/* Set rating color for selected stars  */
+.star.selected {
+  color: #ffc107;
+}

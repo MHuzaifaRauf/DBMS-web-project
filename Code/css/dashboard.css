@@ -1,0 +1,65 @@
+.content {
+  position: relative;
+  height: calc(100vh - 80px);
+  top: 80px; /* Set the top position to the height of the navbar */
+  left: 0;
+}
+@media (max-width: 768px) {
+  .content {
+    max-width: 100%;
+    position: static;
+  }
+}
+.content .heading {
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+.details {
+  margin: auto;
+  width: 70%;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.details .card {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  /* Set the width of each card , this is used to alter the cards with that appear as flex*/
+  flex-basis: 48%; 
+  box-sizing: border-box;
+  transition: all 0.3s;
+  font-size: 22px;
+}
+.details .card:hover {
+  cursor: pointer;
+  background-color: #86A8CF;
+}
+.card a,.card {
+  color: rgba(0, 0, 0, 0.7);
+
+  text-decoration: none;
+}
+.details i {
+  color: #AE445A;
+  margin-right: 10px;
+}
+.details .card:hover i {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+@media (min-width: 768px) {
+  .details .card {
+    flex-basis: 31.33%; 
+  }
+}
+
+@media (max-width: 767px) {
+  .details .card {
+    flex-basis: 48%; 
+  }
+}

@@ -1,0 +1,52 @@
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+
+.form {
+  width: 35%; 
+  padding: 40px; 
+  border-radius: 16px; 
+  background-color: rgba(219, 226, 230, 0.8); 
+  color: #463e3e; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
+  color: #ec1602; 
+}
+
+.form .radio-group .gender-title {
+  margin-bottom: 10px;
+}
+
+.form h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.8rem; 
+  margin-bottom: 30px; 
+}
+
+.form input[type="text"],
+.form input[type="password"],
+.form input[type="number"],
+.form input[type="email"] {
+  background: none;
+  border: 0;
+  outline: 0;
+  width: 100%;
+  padding: 12px; 
+  margin-bottom: 20px; 
+  border-radius: 8px; 
+  border: 2px solid #2980b9; 
+  font-size: 1.2rem; 
+  color: #030303; 
+}
+
