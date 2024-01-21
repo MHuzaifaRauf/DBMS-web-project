@@ -68,4 +68,4 @@ This project serves as an educational resource, designed for learning purposes a
 
 ## Author
 
-Crafted by Huzaifa Rauf, bringing sophistication and efficiency to your coding endeavors!
+Crafted by Huzaifa Rauf and Muhammad Usman, bringing sophistication and efficiency to your coding endeavors!
