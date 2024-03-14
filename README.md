@@ -68,4 +68,4 @@ This project serves as an educational resource, designed for learning purposes a
 
 ## Author
 
-Crafted by [Huzaifa Rauf](https://github.com/MHuzaifa-Rauf) and [Muhammad Usman](https://github.com/usman-174), bringing sophistication and efficiency to your coding endeavors!
+Crafted by [Huzaifa Rauf](https://github.com/MHuzaifaRauf) and [Muhammad Usman](https://github.com/usman-174), bringing sophistication and efficiency to your coding endeavors!
