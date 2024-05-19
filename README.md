@@ -2,6 +2,27 @@
 
 Welcome to the Hospital Lab Management System, a sophisticated solution for seamlessly overseeing laboratory activities within a hospital environment. Harness its capabilities on your local machine and immerse yourself in the realm of cutting-edge health-tech.
 
+##### Home page
+![home](Code/images/home_page.png)
+
+##### Services Section
+![home](Code/images/services.png)
+
+##### Customer Reviews Section
+![home](Code/images/reviews.png)
+
+##### Test Selection Page
+![home](Code/images/test_selection.png)
+
+##### Test History Page
+![home](Code/images/test_history.png)
+
+##### Admin Panel
+![home](Code/images/admin_sidebar.png)
+
+##### Admin Dashboard
+![home](Code/images/panel.png)
+
 ## Technologies Utilized
 
 This advanced system is crafted with a blend of powerful technologies:
