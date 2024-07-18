@@ -3,21 +3,39 @@
 Welcome to the Hospital Lab Management System, a sophisticated solution for seamlessly overseeing laboratory activities within a hospital environment. Harness its capabilities on your local machine and immerse yourself in the realm of cutting-edge health-tech.
 
 ##### Home page
+
+This is main entry point for the application, displaying the navigation for different features available for the laboratory
+
 ![home](Code/images/home_page.png)
 
 ##### Services Section
+
+This section of the home page contains a list of services the patient can quickly access
+
 ![home](Code/images/services.png)
 
 ##### Customer Reviews Section
+
+A curated list of satisfied customers reviews 
+
 ![home](Code/images/reviews.png)
 
 ##### Test Selection Page
+
+A list of all available tests offered by the lab
+
 ![home](Code/images/test_selection.png)
 
 ##### Test History Page
+
+A view into patient history with their reports
+
 ![home](Code/images/test_history.png)
 
 ##### Admin Panel
+
+This is where the lab attendant/admin features are available 
+
 ![home](Code/images/admin_sidebar.png)
 
 ##### Admin Dashboard
