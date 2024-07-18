@@ -14,9 +14,9 @@ This section of the home page contains a list of services the patient can quickl
 
 ![home](Code/images/services.png)
 
-##### Customer Reviews Section
+##### Patient Reviews Section
 
-A curated list of satisfied customers reviews 
+A section containing a list of satisfied patients reviews 
 
 ![home](Code/images/reviews.png)
 
