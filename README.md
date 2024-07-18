@@ -32,13 +32,10 @@ A view into patient history with their reports
 
 ![home](Code/images/test_history.png)
 
-##### Admin Panel
-
-This is where the lab attendant/admin features are available 
-
-![home](Code/images/admin_sidebar.png)
-
 ##### Admin Dashboard
+
+This section of the website is only  visible to admin where they can manage different activities and services of the lab
+
 ![home](Code/images/panel.png)
 
 ## Technologies Utilized
