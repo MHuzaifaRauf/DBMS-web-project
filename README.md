@@ -94,7 +94,7 @@ For a comprehensive understanding, delve into the accompanying report document. 
 
 Have inquiries or encountered digital challenges? Seek assistance at my GitHub repository:
 
-- [GitHub Profile](https://github.com/MHuzaifa-Rauf)
+- [GitHub Profile](https://github.com/MHuzaifaRauf)
 
 Connect with me on LinkedIn and Twitter - I'm here to guide you through the coding journey.
 
